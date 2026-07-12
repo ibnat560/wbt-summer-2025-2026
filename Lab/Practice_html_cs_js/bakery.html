@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farah's Cakery</title>
+    <link rel="stylesheet" href="bakery.css" />
+  </head>
+  <body>
+    <h1>Farah's Cakery</h1>
+    <h3>Online Cake Shop</h3>
+    <div class="container">
+      <table>
+        <tr>
+          <th>Cake</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+
+        <tr>
+          <td>Classic Chocolate Cake</td>
+          <td>950 tk</td>
+          <td><input type="number" id="cccQty" min="0" value="0" /></td>
+        </tr>
+
+        <tr>
+          <td>Classic Vanilla Cake</td>
+          <td>900 tk</td>
+          <td><input type="number" id="cvcQty" min="0" value="0" /></td>
+        </tr>
+      </table>
+
+      <div class="buttons">
+        <button id="calculate">Calculate Total</button>
+        <button id="clear">Clear</button>
+      </div>
+
+      <div class="result">
+        <h3>Shopping Summary</h3>
+        <p id="ccCost"></p>
+        <p id="cvCost"></p>
+        <p id="subtotal"></p>
+        <p id="vat"></p>
+        <p id="grandTotal"></p>
+      </div>
+    </div>
+    <script src="bakery.js"></script>
+  </body>
+</html>
