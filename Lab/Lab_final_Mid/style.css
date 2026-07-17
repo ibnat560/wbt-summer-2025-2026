@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #1cbec4;
+}
+
+/* Radio Button Group */
+
+.radio-group {
+  margin-top: 8px;
+}
+
+.radio-group input {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.radio-group label {
+  display: inline;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+/* Checkbox Group */
+
+.checkbox-group {
+  margin-top: 8px;
+}
+
+.checkbox-group div {
+  margin-bottom: 8px;
+}
+
+.checkbox-group input {
+  margin-right: 8px;
+}
+
+.checkbox-group label {
+  display: inline;
+  font-weight: normal;
+}
+
+/* Error Messages */
+
+.error {
+  display: block;
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+/* Validation Borders */
+
+.errorBorder {
+  border: 2px solid red !important;
+}
+
+.successBorder {
+  border: 2px solid green !important;
+}
+
+/* Submit Button */
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background: #1f88aa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: hsl(212, 6%, 45%);
+}
+
+#heading {
+  background-color: #1f88aa;
+}
